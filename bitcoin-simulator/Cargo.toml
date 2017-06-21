@@ -1,0 +1,10 @@
+[package]
+name = "bitcoin-simulator"
+version = "0.1.0"
+authors = ["ilerik <erik.lite@gmail.com>"]
+
+[dependencies]
+serde = "*" # Serialization and deserialization 
+serde_derive = "*" # just usefull macro and automatic derivation of traits
+toml = "*" # TOML format
+clap = "*" # Command line interface
